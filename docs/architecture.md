@@ -7,21 +7,41 @@ The Course Registration System is a web-based application designed to simplify a
 
 ## 2. Selected Architecture Pattern
 
-The proposed system uses a **Three-Tier Client-Server Architecture** consisting of the Presentation Layer, Application Layer, and Data Layer. This architecture separates the user interface, business logic, and database management, making the system easier to maintain, update, and expand.
+The proposed Course Registration System uses a Three-Tier Client-Server Architecture consisting of the Presentation Layer, Application Layer, and Data Layer. The proposed technologies are Vue.js for the presentation layer, Node.js with Express for the application layer, and MongoDB Atlas Free for the data layer.
 
 ---
 
 ## 3. Architectural Components
 
-### Presentation Layer
-Provides the user interface where students and registrars interact with the system.
+### Presentation Layer (Vue.js)
 
-### Application Layer
-Processes user requests, validates registration data, and manages the system's business logic.
+The Presentation Layer provides the user interface where students and registrars interact with the system.
 
-### Data Layer
-Stores and manages student records, course information, and registration data using a database.
+Responsibilities:
+- Display the user interface
+- Accept user input
+- Send requests to the application layer
+- Display system responses
 
+### Application Layer (Node.js + Express)
+
+The Application Layer processes user requests and manages the business logic.
+
+Responsibilities:
+- Process course registration requests
+- Validate user input
+- Manage application logic
+- Communicate with the database
+
+### Data Layer (MongoDB Atlas Free)
+
+The Data Layer stores and manages all application data.
+
+Responsibilities:
+- Store student records
+- Store course information
+- Store registration records
+- Retrieve and update data
 ---
 
 ## 4. System Architecture Diagram
@@ -31,28 +51,20 @@ Stores and manages student records, course information, and registration data us
                   |
                   v
         ┌───────────────────────┐
-        │ Presentation Layer    │
-        │    (Web Interface)    │
+        │ Presentation Layer    |
+        |               Vue.js  │
         └───────────────────────┘
                   |
                   v
         ┌───────────────────────┐
-        │ Application Layer     │
-        │ - Register Courses    │
-        │ - View Courses        │
-        │ - Update Registration │
-        │ - Drop Registration   │
-        │ - Search Records      │
+        │Application Layer      |
+        | Node.js + Express     │
         └───────────────────────┘
                   |
                   v
         ┌───────────────────────┐
-        │ Data Layer            │
-        │       MySQL DB        │
-        │                       │
-        │ Student Table         │
-        │ Course Table          │
-        │ Registration Table    │
+        │ DData Layer           |
+        | MongoDB Atlas Free    │
         └───────────────────────┘
 ```
 ## 5. Data Flow
@@ -68,25 +80,24 @@ Stores and manages student records, course information, and registration data us
 
 ## 6. Database Design
 
-**Database Name:** `course_registration_db`
+**Database:** MongoDB Atlas Free
 
-### Main Tables
+### Collections
 
-- **Student** – Stores student information.
-- **Course** – Stores course details.
-- **Registration** – Stores course registration records.
+- Students
+- Courses
+- Registrations
 
 ---
-
 ## 7. Architectural Explanation
 
-The Course Registration System follows a Three-Tier Client-Server Architecture, which separates the system into the Presentation Layer, Application Layer, and Data Layer. The Presentation Layer provides the user interface for students and registrars, the Application Layer processes business logic and user requests, and the Data Layer stores and manages all system data. This architecture improves system organization, simplifies maintenance, and supports future system enhancements.
+The Course Registration System follows a Three-Tier Client-Server Architecture using Vue.js as the Presentation Layer, Node.js with Express as the Application Layer, and MongoDB Atlas Free as the Data Layer. This architecture separates the user interface, business logic, and data management, making the system easier to maintain, scalable, and suitable for future enhancements.
 
 ---
 
 ## 8. Design Justification
 
-The Three-Tier Client-Server Architecture was selected because it clearly separates the user interface, application logic, and database management. This design improves maintainability, scalability, security, and overall system performance, making it suitable for the proposed Course Registration System.
+The Three-Tier Client-Server Architecture was selected because it separates the presentation, application, and data layers. Vue.js provides a responsive user interface, Node.js with Express efficiently processes user requests, and MongoDB Atlas Free offers flexible and scalable cloud-based data storage. This architecture improves maintainability, scalability, and overall system performance.
 
 ---
 
