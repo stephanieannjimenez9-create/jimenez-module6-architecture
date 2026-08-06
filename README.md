@@ -1,7 +1,7 @@
 ## STUDENT INFORMATION
 
 **Name:** Stephanie Ann D. Jimenez  
-**Contact:** 09717320**9 | 60102024@chcc.edu.ph  
+**Contact:** 09717320**9 | 12345@chcc.edu.ph  
 **Course and Section:** BSCS 3A  
 **Subject:** Software Engineering 1  
 **Module:** Module 6 – Architectural Design  
