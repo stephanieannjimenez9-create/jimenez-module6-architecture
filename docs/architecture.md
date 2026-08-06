@@ -54,32 +54,41 @@ Stores and manages student records, course information, and registration data us
         │ Course Table          │
         │ Registration Table    │
         └───────────────────────┘
-```text
+## 5. Data Flow
 
-5. Data Flow
-The student logs into the system.
-The student selects a course registration function.
-The request is sent to the Application Layer.
-The Application Layer validates and processes the request.
-The Data Layer stores or retrieves the required information.
-The processed result is displayed to the user.
-6. Database Design
+1. The student logs into the system.
+2. The student selects a course registration function.
+3. The request is sent to the Application Layer.
+4. The Application Layer validates and processes the request.
+5. The Data Layer stores or retrieves the required information.
+6. The processed result is displayed to the user.
 
-Database Name: course_registration_db
+---
 
-Tables:
+## 6. Database Design
 
-Student
-Course
-Registration
-7. Architectural Explanation
+**Database Name:** `course_registration_db`
 
-The Course Registration System follows a Three-Tier Client-Server Architecture to separate the presentation, application, and data layers. This separation improves system organization, simplifies maintenance, and allows future enhancements without affecting the entire application.
+### Main Tables
 
-8. Design Justification
+- **Student** – Stores student information.
+- **Course** – Stores course details.
+- **Registration** – Stores course registration records.
 
-The Three-Tier Architecture was selected because it provides a clear separation of responsibilities among the user interface, application logic, and database. This makes the system more maintainable, scalable, secure, and easier to develop.
+---
 
-9. Architectural Limitations
+## 7. Architectural Explanation
 
-This architectural design focuses only on the proposed system structure and documentation. Source code implementation, database connectivity, authentication, deployment, and other advanced features are not included in this module.
+The Course Registration System follows a Three-Tier Client-Server Architecture, which separates the system into the Presentation Layer, Application Layer, and Data Layer. The Presentation Layer provides the user interface for students and registrars, the Application Layer processes business logic and user requests, and the Data Layer stores and manages all system data. This architecture improves system organization, simplifies maintenance, and supports future system enhancements.
+
+---
+
+## 8. Design Justification
+
+The Three-Tier Client-Server Architecture was selected because it clearly separates the user interface, application logic, and database management. This design improves maintainability, scalability, security, and overall system performance, making it suitable for the proposed Course Registration System.
+
+---
+
+## 9. Architectural Limitations
+
+This architectural design focuses only on the proposed structure and documentation of the Course Registration System. Source code implementation, database connectivity, authentication, deployment, and other advanced system features are outside the scope of this module.
