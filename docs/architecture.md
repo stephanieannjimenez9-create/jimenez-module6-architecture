@@ -1,21 +1,15 @@
-<<<<<<< HEAD
+
 # Course Registration System - Architectural Design
 
 ## 1. System Overview
 
 The Course Registration System is a web-based system designed to manage and simplify the course registration process of students. The system allows students to view available courses, register subjects, update registration information, and manage their enrolled courses. It also helps administrators maintain student and course records efficiently.
-=======
-# System Architectural Design
-## 1. System Overview
-
-The Course Registration System is a web-based application designed to simplify and manage the course registration process. It allows students to register courses, view registered courses, update registration details, drop or cancel course registrations, and search course records. The system provides a centralized platform that improves registration efficiency, minimizes manual errors, and helps academic staff manage course information effectively.
->>>>>>> 5b75a3bd4d41b45376193b36a9b046b755cca63d
 
 ---
 
 ## 2. Selected Architecture Pattern
 
-<<<<<<< HEAD
+
 The proposed Course Registration System uses a Three-Tier Client-Server Architecture. The system is divided into three layers: Presentation Layer, Application Layer, and Data Layer.
 
 The proposed technologies for each layer are:
@@ -23,9 +17,6 @@ The proposed technologies for each layer are:
 - Presentation Layer: Vue.js
 - Application Layer: Node.js and Express
 - Data Layer: MongoDB Atlas Free
-=======
-The proposed Course Registration System uses a Three-Tier Client-Server Architecture consisting of the Presentation Layer, Application Layer, and Data Layer. The proposed technologies are Vue.js for the presentation layer, Node.js with Express for the application layer, and MongoDB Atlas Free for the data layer.
->>>>>>> 5b75a3bd4d41b45376193b36a9b046b755cca63d
 
 ---
 
@@ -62,7 +53,7 @@ Responsibilities:
 - Store registration details.
 - Retrieve and update database records.
 
-=======
+
 The Presentation Layer provides the user interface where students and registrars interact with the system.
 
 Responsibilities:
@@ -90,7 +81,7 @@ Responsibilities:
 - Store course information
 - Store registration records
 - Retrieve and update data
->>>>>>> 5b75a3bd4d41b45376193b36a9b046b755cca63d
+
 ---
 
 ## 4. System Architecture Diagram
@@ -114,7 +105,7 @@ Responsibilities:
                   |
                   v
         ┌───────────────────────┐
-        │ DData Layer           |
+        │ Data Layer           |
         | MongoDB Atlas Free    │
         └───────────────────────┘
 ```
