@@ -24,3 +24,37 @@ Many schools still experience challenges in managing course registration due to 
 3. Update Course Registration
 4. Drop or Cancel Registration
 5. Search Course Records
+## Proposed Technology Stack
+
+### Frontend
+- HTML
+- CSS
+- JavaScript
+
+### Backend
+- PHP
+
+### Database
+- MySQL
+
+### Development Tools
+- Visual Studio Code
+- Git
+- GitHub
+- XAMPP
+
+---
+
+## Repository Structure
+
+```
+jimenez-module6-architecture/
+├── README.md
+└── docs/
+    └── architecture.md
+```
+
+---
+## Project Status
+
+The proposed Course Registration System is currently in the architectural design and documentation phase and has not yet been implemented.
