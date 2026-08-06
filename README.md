@@ -1,25 +1,23 @@
-Student Information
-
-Name: Stephanie Jimenez
-Course and Section: BSCS 3A
+STUDENT INFORMATION
+Name: Stephanie Ann D. Jimenez
+Contact: 09717320**9 | 60102024@chcc.edu.ph
+Course and Subject: BSCS3A
 Subject: Software Engineering 1
-Module: Module 6 - Architectural Design
+Module: Module 6 – Architectural Design
 Instructor: Patrick Jason L. Torres
 
- Problem Statement
+PROJECT TITLE
+Course Registration System
 
-Many schools still experience challenges in managing course registration due to manual or paper-based procedures. 
-These methods can lead to long processing times, incorrect records, duplicate registrations, and scheduling conflicts. 
-The proposed Course Registration System provides a centralized platform that streamlines the registration process and improves record accuracy.
+PROBLEM STATEMENT
+Many schools still experience challenges in managing course registration due to manual or paper-based procedures. These methods can lead to long processing times, incorrect records, duplicate registrations, and scheduling conflicts. The proposed Course Registration System provides a centralized platform that streamlines the registration process, improves record accuracy, and makes course management more efficient.
 
- Target Users
+TARGET USERS
+• Students
+• Registrar
+• Academic Staff
 
- Students
- Registrar
- Academic Staff
-
- Main Features
-
+MAIN FEATURES
 1. Register Courses
 2. View Registered Courses
 3. Update Course Registration
