@@ -27,22 +27,15 @@ Many schools still experience challenges in managing course registration due to 
 ## Proposed Technology Stack
 
 ### Frontend
-- HTML
-- CSS
-- JavaScript
-
+-Vue.js
 ### Backend
-- PHP
-
+-Node.js and express
 ### Database
-- MySQL
+-MongoDB Atlas Free
 
-### Development Tools
-- Visual Studio Code
+### Version Control
 - Git
 - GitHub
-- XAMPP
-
 ---
 
 ## Repository Structure
