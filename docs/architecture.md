@@ -54,6 +54,7 @@ Stores and manages student records, course information, and registration data us
         │ Course Table          │
         │ Registration Table    │
         └───────────────────────┘
+```
 ## 5. Data Flow
 
 1. The student logs into the system.
