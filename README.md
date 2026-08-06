@@ -7,14 +7,6 @@
 **Module:** Module 6 – Architectural Design  
 **Instructor:** Patrick Jason L. Torres  
 
-## PROJECT TITLE
-
-Course Registration System
-
-## PROJECT OVERVIEW
-
-The Course Registration System is a web-based application designed to simplify and improve the course registration process in educational institutions. It allows students to register for available courses online while enabling the registrar to manage course offerings and student registrations efficiently.
-
 ## PROBLEM STATEMENT
 
 Many schools still experience challenges in managing course registration due to manual or paper-based procedures. These methods can lead to long processing times, incorrect records, duplicate registrations, and scheduling conflicts. The proposed Course Registration System provides a centralized platform that streamlines the registration process, improves record accuracy, and makes course management more efficient.
