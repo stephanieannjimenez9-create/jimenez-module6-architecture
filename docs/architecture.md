@@ -1,5 +1,5 @@
 
-# Course Registration System - Architectural Design
+# Course Registration System 
 
 ## 1. System Overview
 
